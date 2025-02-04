@@ -1,7 +1,7 @@
 # A C I D
 
 
-This function ensures ACID compliance for database transactions.
+This function ensures ACID compliance for database transactions. It is for all of the modern RDBMS including PostgreSQL.
 
 ACID stands for Atomicity, Consistency, Isolation, and Durability:
 
