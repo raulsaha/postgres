@@ -1,6 +1,6 @@
 provider "azurerm" {
     features        {}
-    subscription_id = "1eee6559-30fe-45aa-8cf6-93089f53115a"
+    subscription_id = "<Enter Subscription>"
 }
 
 resource "azurerm_postgresql_flexible_server" "example" {
@@ -10,7 +10,7 @@ resource "azurerm_postgresql_flexible_server" "example" {
     version                      = "12"
     public_network_access_enabled = false
     administrator_login          = "psqladmin"
-    administrator_password       = "H@Sh1CoR3!"
+    administrator_password       = "Pass!"
     zone                         = "1"
     storage_mb                   = 32768
     storage_tier                 = "P4"
